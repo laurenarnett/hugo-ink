@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Lora", sans-serif;
     font-weight: 400;
     color: #333;
     line-height: 1.8em;
@@ -9,12 +9,13 @@ body {
 }
 
 a {
-    color: #3700ff;
+    color: #007BFF;
     text-decoration: none;
     word-break: break-word;
 }
     a:hover {
-        border-bottom: 2px solid #3700ff;
+        border-bottom: 2px solid #007BFF;
+        color: #007BFF
     }
 
 html,button,input,select,textarea {
@@ -22,13 +23,13 @@ html,button,input,select,textarea {
 }
 
 ::-moz-selection {
-    background: #3700ff;
+    background: #007BFF;
     text-shadow: none;
     color: #fff;
 }
 
 ::selection {
-    background: #3700ff;
+    background: #007BFF;
     text-shadow: none;
     color: #fff;
 }
@@ -108,7 +109,7 @@ blockquote {
     font-size: 1.4rem;
     font-family: Georgia,bitstream charter,serif;
     border-left: 3px solid;
-    border-color: #3700ff;
+    border-color: #007BFF;
     padding-left: 20px;
 }
 
@@ -274,7 +275,7 @@ ul {
         color: #333;
     }
     .header nav.social a:hover {
-        color: #3700ff;
+        color: #007BFF;
     }
 
 .header .site-description nav {
@@ -332,27 +333,32 @@ ul {
     font-family: "Playfair Display", serif;
     font-weight: 700;
     line-height: 0.45em;
-    font-size: 3em;
+    font-size: 1em;
     display: block;
-    margin-bottom: 20px;
 }
 .post-header .meta .date .rest {
     display: block;
     font-size: 0.75em;
 }
+.post-header .meta .normal-date {
+    font-size: 0.75em;
+    margin: 13px 0px 0px 20px;
+}
 .post-header h1.title {
+    display: inline-block;
+    float: left;
     margin: -10px 0 0 0;
 }
 
 .post .title.small {
-    margin: 0 0 10px 0;
+    margin: 0 0 0px 0;
 }
 .post .post-header {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .post .draft-label {
-    color: #3700ff;
+    color: #007BFF;
     text-decoration: none;
     padding: 2px 4px;
     border-radius: 4px;
@@ -362,10 +368,10 @@ ul {
 
 .post .tags a {
     display: inline-block;
-    border: 1px solid #3700ff;
+    border: 1px solid #007BFF;
     border-radius: 3px;
     padding: 0px 6px;
-    color: #3700ff;
+    color: #007BFF;
     line-height: 20px;
     font-size: 0.85em;
     text-decoration: none;
@@ -389,7 +395,7 @@ ul {
         color: #666;
     }
     .footer a:hover {
-        color: #3700ff;
+        color: #007BFF;
     }
 
 .tag-cloud {
