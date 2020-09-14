@@ -344,6 +344,13 @@ ul {
     font-size: 0.75em;
     margin: 13px 0px 0px 20px;
 }
+
+.normal-post-date {
+    font-family: "Lora", serif;
+    display: flex;
+    margin-bottom: 50px;
+}
+
 .post-header h1.title {
     display: inline-block;
     float: left;
